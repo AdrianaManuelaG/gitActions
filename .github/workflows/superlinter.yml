@@ -5,7 +5,7 @@ on: push
 jobs:
   super-lint:
     name: Lint code base
-    runs-on: ununtu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: sctions/checkout@v2
